@@ -46,7 +46,7 @@ body {
     float: right;
     width: 18px;
     padding-right: 50px;
-    padding-top: 8px
+    padding-top: 8px 
 }
 #search {
     margin-bottom: 10px;
@@ -81,12 +81,16 @@ nav {
     width: 100%;
     position: relative;
 }
+
+
 nav ul {
     background: whitesmoke;
     list-style: none;
     display: inline-table;
     width: 100%;
+
 }
+
 nav ul li {
     float: left;
 }
