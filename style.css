@@ -81,16 +81,12 @@ nav {
     width: 100%;
     position: relative;
 }
-
-
 nav ul {
     background: whitesmoke;
     list-style: none;
     display: inline-table;
     width: 100%;
-
 }
-
 nav ul li {
     float: left;
 }
@@ -131,20 +127,6 @@ nav ul li a {
     width: 520px;
     padding-right: 140px;
 }
-.thumbnail {
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    padding: 10px;
-    width: 225px;
-    margin: 10px;
-    float: left;
-}
-
-.thumbnail img {
-    width: 100%;
-}
-
 footer {
     position: absolute;
     bottom: 0%;
