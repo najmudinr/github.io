@@ -97,12 +97,16 @@ nav ul li a {
 }
 
 #tentang{
-    padding-top: 15px;
+    padding-top: 20px;
     font-size:15px;
 }
 
 .ttg{
     text-align: center;
+}
+
+.ttg img{
+    width: 10%;
 }
 
 footer {
