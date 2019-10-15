@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: montserrat;
+    
+}
+#content {
+    margin: 70px;
+    overflow: auto;
+    
+}
+#content input{
+    margin-top: 30px;
+    margin-left: 240px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #7ca616;
+    border-radius: 4px;
+}
+#content span {
+    color: #7CA616;
+}
+.menu-kanan {
+    position: absolute;
+    right: 0%;
+    top: 17px;
+}
+.menu-kanan img {
+    float: right;
+    width: 18px;
+    padding-right: 50px;
+    padding-top: 8px 
+}
+#search {
+    margin-bottom: 10px;
+    float: right;
+    padding-right: 46px;
+}
+#search input {
+    padding: 10px;
+    border: .1px solid lightgray;
+    font-family: montserrat;
+    width: 250px;
+    border-radius: 20px;
+}
+#search button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: .1px solid lightgray;
+    border-radius: 60px;
+    font-family: montserrat;
+    cursor: pointer;
+}
+#search button:hover{
+    background-color: #7CA616;
+    color: white;
+
+}
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+
+nav ul {
+    background: whitesmoke;
+    list-style: none;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+nav ul li:hover a {
+    color: #7CA616;
+    border-bottom: 2px solid #7CA616;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    color: dimgray;
+    text-decoration: none;
+    border-bottom: 2px solid whitesmoke;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.social {
+    float: right;
+    margin-top: 18px;
+    
+}
+.social img {
+    width: 20px;
+    padding-right: 50px;
+}
+.kbelanja {
+    border: 1px solid #7ca616;
+    padding: 20px;
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    width: 700px;
+    overflow: auto;
+}
+.kbelanja h3 {
+    float: left;
+    padding: 0 112px 0 0;
+    margin-bottom: 20px;
+}
+.kbelanja img {
+    width: 70px;
+    padding: 0 112px 0 0;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+}
+.kbelanja p {
+    padding: 0 100px 0 0;
+    display: inline-block;
+    text-align: center;
+    
+}
+#maskot {
+    float: right;
+    width: 520px;
+    padding-right: 140px;
+}
+
+footer {
+    border-top: 1px solid #7ca616;
+    position: absolute;
+    bottom: 0%;
+    height: 54px;
+    background: whitesmoke;
+    color: dimgray;
+    width: 100%;
+}
+footer p {
+    padding: 16px 20px;
+    float: left;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+}
