@@ -10,16 +10,6 @@ body {
 #content {
     margin: 70px;
     overflow: auto;
-    
-}
-#content input{
-    margin-top: 30px;
-    margin-left: 240px;
-    border: none;
-    padding: 10px;
-    color: white;
-    background-color: #7ca616;
-    border-radius: 4px;
 }
 #content span {
     color: #7CA616;
@@ -111,30 +101,40 @@ nav ul li a {
 .kbelanja {
     border: 1px solid #7ca616;
     padding: 20px;
-    margin: auto;
+    margin: 40px auto auto auto;
     background-color: whitesmoke;
-    margin-top: 40px;
-    width: 700px;
+    width: 60%;
     overflow: auto;
 }
-.kbelanja h3 {
-    float: left;
-    padding: 0 112px 0 0;
-    margin-bottom: 20px;
+.kbelanja table {
+    text-align: center;
+    border: 2px solid #7ca616;
+    width: 100%; 
 }
-.kbelanja img {
-    width: 70px;
-    padding: 0 112px 0 0;
+.kbelanja table th {
+    background-color: #7ca616;
+    color: white;
+    padding: 10px;
+}
+.kbelanja table td{
+    border: 1px solid #7ca616;
+    padding: 10px;
+}
+.kbelanja table img {
+    text-align: center;
+    width: 100px;
     border-radius: 5px;
-    text-align: center;
-    float: left;
 }
-.kbelanja p {
-    padding: 0 100px 0 0;
-    display: inline-block;
-    text-align: center;
-    
+.kbelanja a {
+    padding: 12px;
+    background-color: #7ca616;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    float: right;
 }
+
 #maskot {
     float: right;
     width: 520px;

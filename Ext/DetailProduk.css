@@ -96,6 +96,7 @@ nav ul li a {
     text-align: center;
     width: 80%;
     font-size: 15px;
+    overflow: auto;
 }
 #tentang {
     padding-top: 20px;
@@ -111,19 +112,18 @@ hr {
     width: 100%;
     text-align: left;
     float: left;
-    display: inline-block;
 }
 
 .thumbnail img {
     width: 300px;
     border-radius: 12px;
     float: left;
+    margin-right: 10px;
     
 }
 .thumbnail p {
     border-right: 1px solid #7CA616;
     padding-right: 30px;
-    margin-left: 20px;
     width: 500px;
     text-align: justify;
     float: left;
@@ -131,10 +131,10 @@ hr {
 .buy {
     border: 1px solid #7ca616;
     padding: 20px 0;
-    display: inline-block;
     margin-left: 25px;
     width: 210px;
     text-align: center;
+    float: right;
 }
 .buy input {
     font-size: 16px;
@@ -170,13 +170,13 @@ hr {
 
 footer {
     border-top: 1px solid #7ca616;
-    position: absolute;
-    bottom: 0%;
+    margin-top: 50px;
     height: 54px;
     width: 100%;
+    position: absolute;
+    bottom:0;
     background-color: whitesmoke;
 }
-
 footer p {
     margin: 20px 25px auto;
     text-align: center;
