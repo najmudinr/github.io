@@ -378,16 +378,15 @@ ul.topnav li.icon {
 
     .content img {
         margin: 40px 0 127px;
-        width: 250px;
+        width: 300px;
     }
 
     .linkbutton {
         font-weight: 500;
-        font-size: 15px;
-        width: 190px;
+        font-size: 20px;
         background-color: #7ca616;
         margin-top: 15px;
-        padding: 15px 0px;
+        padding: 20px 0px;
         text-decoration: none;
         color: white;
         border-radius: 50px;
@@ -401,13 +400,12 @@ ul.topnav li.icon {
 
 footer {
     position: relative;
-    margin-top: 22px;
     border-top: 1px solid #7ca616;
     height: 50px;
     background: whitesmoke;
     color: dimgray;
     width: 100%;
-    bottom: 0;
+    
 }
 
 footer div,
