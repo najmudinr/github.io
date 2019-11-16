@@ -352,7 +352,8 @@ ul.topnav li.icon {
     .topnav li img {
         margin: auto;
         display: block;
-        width: 0px;
+        width: 90px;
+        position: fixed;
     }
 
     .content {
