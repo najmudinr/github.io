@@ -49,7 +49,7 @@ body {
 }
 
 .search input:focus {
-    width: 150px;
+    width: 190px;
     border: 1px solid lightgray;
     background-color: white;
 }
@@ -350,10 +350,10 @@ ul.topnav li.icon {
 
 @media screen and (max-width: 601px) {
     .topnav li img {
+        position: absolute;
         margin: auto;
-        display: block;
         width: 90px;
-        position: fixed;
+        
     }
 
     .content {
