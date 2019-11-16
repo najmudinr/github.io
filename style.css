@@ -353,6 +353,7 @@ ul.topnav li.icon {
         margin: auto;
         display: block;
         width: 90px;
+        position: fixed;
     }
 
     .content {
