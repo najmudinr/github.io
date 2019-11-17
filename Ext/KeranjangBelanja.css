@@ -367,7 +367,8 @@ footer {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
+    bottom: 0;
     border-top: 1px solid #7ca616;
     background: whitesmoke;
     color: dimgray;
