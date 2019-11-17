@@ -399,9 +399,12 @@ ul.topnav li.icon {
 /* Footer */
 
 footer {
+    margin-top: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
     position: relative;
     border-top: 1px solid #7ca616;
-    height: 50px;
     background: whitesmoke;
     color: dimgray;
     width: 100%;
@@ -410,18 +413,17 @@ footer {
 
 footer div,
 footer p {
-    float: right;
-    padding-top: 18px;
+    margin: 16px 0 8px 0;
 }
 
 footer p {
     font-size: 13px;
     font-style: italic;
-    float: left;
-    padding-left: 30px;
+    padding: 0 5vw 0;
 }
 
 .social img {
     width: 20px;
-    padding-right: 4vw;
+    padding: 0 5vw 0 0;
+    
 }
