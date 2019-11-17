@@ -11,14 +11,14 @@ body {
 /* Navbar */
 
 .topnav li img {
-    width: 110px;
-    padding: 12px 25px;
+    width: 90px;
+    padding: 13px 13px 0 20px;
 }
 
 .menu {
-    margin-top: 17px;
     float: right;
-    padding-right: 10px;
+    padding: 18px 0 0 0;
+    
 }
 
 .menu img {
@@ -27,9 +27,9 @@ body {
 }
 
 .search {
-    padding: 7px 0;
     position: relative;
     float: right;
+    padding: 6px 0 0;
 }
 
 .search input {
@@ -50,7 +50,7 @@ body {
 }
 
 .search input:focus {
-    width: 170px;
+    width: 190px;
     border: 1px solid lightgray;
     background-color: white;
 }
@@ -63,7 +63,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
-
+    
 }
 
 ul.topnav li {
@@ -72,19 +72,17 @@ ul.topnav li {
 
 ul.topnav li a {
     display: inline-block;
+    padding: 16px;
     color: black;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 16px;
-    border-bottom: 2px solid whitesmoke;
 }
 
 ul.topnav li a:hover {
     color: #7ca616;
     background-color: white;
-    border-bottom: 2px solid #7ca616;
 }
 
 ul.topnav li.icon {
@@ -347,6 +345,11 @@ ul.topnav li.icon {
 }
 
 @media screen and (max-width:601px) {
+    .topnav li img {
+        position: absolute;
+        margin: auto;
+        width: 90px;
+    }
     .content h2 {
         font-size: 15px;
         text-align-last: center;
@@ -361,29 +364,31 @@ ul.topnav li.icon {
 /* Footer */
 
 footer {
-    position: absolute;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
     border-top: 1px solid #7ca616;
-    height: 54px;
     background: whitesmoke;
     color: dimgray;
     width: 100%;
-    bottom: 0;
+    
 }
 
 footer div,
 footer p {
-    float: right;
-    padding-top: 18px;
+    margin: 16px 0 8px 0;
 }
 
 footer p {
     font-size: 13px;
     font-style: italic;
-    float: left;
-    padding-left: 30px;
+    padding: 0 5vw 0;
 }
 
 .social img {
     width: 20px;
-    padding-right: 4vw;
+    padding: 0 5vw 0 0;
+    
 }
