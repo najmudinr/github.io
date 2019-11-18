@@ -353,7 +353,6 @@ ul.topnav li.icon {
         position: absolute;
         margin: auto;
         width: 90px;
-        
     }
 
     .content {
@@ -367,18 +366,17 @@ ul.topnav li.icon {
     }
 
     .content h1 {
-        font-size: 65px;
+        font-size: 16vw;
         font-weight: 1000;
         margin-bottom: -10px;
     }
-
     .content p {
         font-size: 15px;
     }
 
     .content img {
-        margin: 40px 0 127px;
-        width: 200px;
+        margin: 40px 0 120px;
+        width: 70vw;
     }
 
     .linkbutton {
