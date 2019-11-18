@@ -378,7 +378,7 @@ ul.topnav li.icon {
 
     .content img {
         margin: 40px 0 127px;
-        width: 300px;
+        width: 200px;
     }
 
     .linkbutton {
@@ -419,11 +419,10 @@ footer p {
 footer p {
     font-size: 13px;
     font-style: italic;
-    padding: 0 5vw 0;
+    padding: 0 15px 0;
 }
 
 .social img {
     width: 20px;
-    padding: 0 5vw 0 0;
-    
+    padding: 0 3vw 0 0;
 }
