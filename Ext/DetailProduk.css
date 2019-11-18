@@ -17,7 +17,7 @@ body {
 .menu {
     float: right;
     padding: 18px 0 0 0;
-    
+
 }
 
 .menu img {
@@ -62,7 +62,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
-    
+
 }
 
 ul.topnav li {
@@ -87,6 +87,7 @@ ul.topnav li a:hover {
 ul.topnav li.icon {
     display: none;
 }
+
 @media screen and (max-width:786px) {
 
     ul.topnav li:not(:first-child),
@@ -346,7 +347,8 @@ ul.topnav li.icon {
     margin: 20px 0 0 0;
     width: 35%;
 }
-.detail-buy h4{
+
+.detail-buy h4 {
     font-weight: 400;
 }
 
@@ -391,9 +393,43 @@ ul.topnav li.icon {
         margin: auto;
         width: 90px;
     }
-    
+
     .detail {
-        width: 380px;
+        width: 80vw;
+        margin-bottom: 200px;
+    }
+
+    .detail img {
+        width: 40vw;
+        border-radius: 5px;
+        float: left;
+        margin: 20px;
+    }
+
+    .detail p {
+        display: inline-block;
+        padding: 0 20px 20px 20px;
+    }
+
+    .detail-buy {
+        display: inline-block;
+        margin: 20px 0 0 0;
+        width: 22vw;
+        font-size: 14px;
+    }
+
+    .detail-buy h4 {
+        font-weight: 400;
+
+    }
+    .form-content {
+        width: 300px;
+    }
+
+    .form-main input {
+        margin: auto;
+        width: 90%;
+        padding:9px; 
     }
 }
 
@@ -410,7 +446,7 @@ footer {
     background: whitesmoke;
     color: dimgray;
     width: 100%;
-    
+
 }
 
 footer div,
@@ -421,11 +457,10 @@ footer p {
 footer p {
     font-size: 13px;
     font-style: italic;
-    padding: 0 5vw 0;
+    padding: 0 15px 0;
 }
 
 .social img {
     width: 20px;
-    padding: 0 5vw 0 0;
-    
+    padding: 0 3vw 0 0;
 }
