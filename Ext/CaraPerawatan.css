@@ -18,7 +18,7 @@ body {
 .menu {
     float: right;
     padding: 18px 0 0 0;
-    
+
 }
 
 .menu img {
@@ -63,7 +63,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
-    
+
 }
 
 ul.topnav li {
@@ -126,6 +126,15 @@ ul.topnav li.icon {
     ul.topnav li a {
         display: block;
         text-align: left;
+    }
+    .form-content {
+        width: 300px;
+    }
+
+    .form-main input {
+        margin: auto;
+        width: 90%;
+        padding:9px; 
     }
 }
 
@@ -356,7 +365,7 @@ footer {
     background: whitesmoke;
     color: dimgray;
     width: 100%;
-    
+
 }
 
 footer div,
@@ -367,11 +376,10 @@ footer p {
 footer p {
     font-size: 13px;
     font-style: italic;
-    padding: 0 5vw 0;
+    padding: 0 15px 0;
 }
 
 .social img {
     width: 20px;
-    padding: 0 5vw 0 0;
-    
+    padding: 0 3vw 0 0;
 }

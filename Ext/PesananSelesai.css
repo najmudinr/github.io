@@ -126,6 +126,15 @@ ul.topnav li.icon {
         display: block;
         text-align: left;
     }
+    .form-content {
+        width: 300px;
+    }
+
+    .form-main input {
+        margin: auto;
+        width: 90%;
+        padding:9px; 
+    }
 }
 
 /* Form PopUp Login*/
@@ -358,7 +367,6 @@ footer {
     background: whitesmoke;
     color: dimgray;
     width: 100%;
-    
 }
 
 footer div,
@@ -369,11 +377,10 @@ footer p {
 footer p {
     font-size: 13px;
     font-style: italic;
-    padding: 0 5vw 0;
+    padding: 0 15px 0;
 }
 
 .social img {
     width: 20px;
-    padding: 0 5vw 0 0;
-    
+    padding: 0 3vw 0 0;
 }

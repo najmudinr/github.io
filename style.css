@@ -45,7 +45,6 @@ body {
     padding: 10px 0 10px 40px;
     transition: .6s;
     cursor: pointer;
-
 }
 
 .search input:focus {
@@ -53,7 +52,6 @@ body {
     border: 1px solid lightgray;
     background-color: white;
 }
-
 
 ul.topnav {
     border-bottom: 1px solid #7ca616;
@@ -362,14 +360,14 @@ ul.topnav li.icon {
 
     .content h2 {
         font-size: 40px;
-        margin-bottom: -20px;
+        margin-bottom: -10px;
     }
 
     .content h1 {
         display: block;
         font-size: 16vw;
         font-weight: 1000;
-        margin: -10px;
+        margin: -5px;
     }
     .content p {
         font-size: 15px;
@@ -393,6 +391,15 @@ ul.topnav li.icon {
         border-radius: 50px;
         display: inline-block;
         text-align: center;
+    }
+    .form-content {
+        width: 300px;
+    }
+
+    .form-main input {
+        margin: auto;
+        width: 90%;
+        padding:9px; 
     }
 }
 

@@ -5,8 +5,9 @@
 
 body {
     font-family: sans-serif;
-    
+
 }
+
 /* Navbar */
 
 .topnav li img {
@@ -17,7 +18,7 @@ body {
 .menu {
     float: right;
     padding: 18px 0 0 0;
-    
+
 }
 
 .menu img {
@@ -62,7 +63,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
-    
+
 }
 
 ul.topnav li {
@@ -301,6 +302,7 @@ ul.topnav li.icon {
     cursor: pointer;
     color: darkolivegreen;
 }
+
 /* Konten */
 
 .content {
@@ -310,14 +312,17 @@ ul.topnav li.icon {
     overflow: auto;
     font-size: 15px;
 }
+
 .content h2 {
     font-size: 25px;
 }
+
 .content hr {
     margin: 20px auto;
     opacity: 0.5;
-    width: 50vw;   
+    width: 50vw;
 }
+
 #bcrumb a {
     text-decoration: none;
     font-size: 15px;
@@ -345,14 +350,14 @@ ul.topnav li.icon {
     border-radius: 5px;
 
 }
+
 .thumbnail h2 {
     font-size: 20px;
 }
 
 .thumbnail .btn {
     margin: auto;
-    display: block
-    font-family: poppins;
+    display: block font-family: poppins;
     color: white;
     font-weight: 200px;
     font-size: 15px;
@@ -364,10 +369,11 @@ ul.topnav li.icon {
     cursor: pointer;
     transition: 0.3s;
 }
-.thumbnail .btn:hover{
+
+.thumbnail .btn:hover {
     color: white;
     background-color: darkolivegreen;
-    
+
 }
 
 @media screen and (max-width:601px) {
@@ -376,7 +382,7 @@ ul.topnav li.icon {
         margin: auto;
         width: 90px;
     }
-    
+
     .content {
         margin: 29px auto;
         text-align: center;
@@ -395,7 +401,9 @@ ul.topnav li.icon {
         text-align: left;
         float: left;
     }
-    .thumbnail h2, .thumbnail p {
+
+    .thumbnail h2,
+    .thumbnail p {
         font-size: 12px;
     }
 
@@ -404,11 +412,21 @@ ul.topnav li.icon {
         border-radius: 5px;
 
     }
+
     .thumbnail .btn {
         width: 100%;
         font-size: 12px;
         padding: 10px;
-        
+
+    }
+    .form-content {
+        width: 300px;
+    }
+
+    .form-main input {
+        margin: auto;
+        width: 90%;
+        padding:9px; 
     }
 }
 
@@ -424,7 +442,7 @@ footer {
     background: whitesmoke;
     color: dimgray;
     width: 100%;
-    
+
 }
 
 footer div,
@@ -435,12 +453,10 @@ footer p {
 footer p {
     font-size: 13px;
     font-style: italic;
-    padding: 0 5vw 0;
+    padding: 0 15px 0;
 }
 
 .social img {
     width: 20px;
-    padding: 0 5vw 0 0;
-    
+    padding: 0 3vw 0 0;
 }
-
