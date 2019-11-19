@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 /* Navbar */
@@ -296,19 +296,16 @@ ul.topnav li.icon {
 /* Konten */
 .content {
     margin: auto;
-    overflow: auto;
 }
 
 .content h2 {
     font-size: 50px;
-    position: relative;
-    margin-bottom: 0px;
 }
 
 .content h1 {
     font-size: 100px;
-    font-weight: 1000;
-    margin: -30px 0 -13px;
+    font-weight: 900;
+    margin: -40px 0 -23px;
 }
 
 .content p {
@@ -411,12 +408,12 @@ footer {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
+    bottom: 0;
     border-top: 1px solid #7ca616;
     background: whitesmoke;
     color: dimgray;
     width: 100%;
-    
 }
 
 footer div,
@@ -427,10 +424,16 @@ footer p {
 footer p {
     font-size: 13px;
     font-style: italic;
-    padding: 0 15px 0;
+    padding: 0 5vw 0;
 }
 
 .social img {
     width: 20px;
-    padding: 0 3vw 0 0;
+    padding: 0 5vw 0 0;
+    
+}
+@media screen and (max-width:1110px){
+    footer{
+        bottom:unset;
+    }
 }

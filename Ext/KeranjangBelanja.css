@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 /* Navbar */
@@ -373,7 +373,6 @@ footer {
     background: whitesmoke;
     color: dimgray;
     width: 100%;
-    
 }
 
 footer div,
@@ -391,4 +390,9 @@ footer p {
     width: 20px;
     padding: 0 5vw 0 0;
     
+}
+@media screen and (max-width:1110px){
+    footer{
+        bottom:unset;
+    }
 }

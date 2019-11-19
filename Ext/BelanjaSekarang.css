@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: poppins, sans-serif;
 
 }
 
@@ -308,7 +308,7 @@ ul.topnav li.icon {
 .content {
     margin: 29px auto;
     text-align: center;
-    width: 59vw;
+    width: 65vw;
     overflow: auto;
     font-size: 15px;
 }
@@ -375,6 +375,13 @@ ul.topnav li.icon {
     background-color: darkolivegreen;
 
 }
+@media screen and (max-width:1000px) {
+    .content {
+        margin: 29px auto;
+        text-align: center;
+        width: 55vw;
+    }
+}
 
 @media screen and (max-width:601px) {
     .topnav li img {
@@ -419,6 +426,7 @@ ul.topnav li.icon {
         padding: 10px;
 
     }
+
     .form-content {
         width: 300px;
     }
@@ -426,9 +434,11 @@ ul.topnav li.icon {
     .form-main input {
         margin: auto;
         width: 90%;
-        padding:9px; 
+        padding: 9px;
     }
 }
+
+
 
 /* Footer */
 

@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 /* Navbar */
@@ -324,7 +324,7 @@ ul.topnav li.icon {
 }
 
 .detail {
-    margin: 20px auto 50px;
+    margin: 20px auto 60px;
     border: 1px solid #7ca616;
     border-radius: 8px;
     width: 500px;
@@ -456,10 +456,10 @@ footer p {
 footer p {
     font-size: 13px;
     font-style: italic;
-    padding: 0 15px 0;
+    padding: 0 5vw 0;
 }
 
 .social img {
     width: 20px;
-    padding: 0 3vw 0 0;
+    padding: 0 5vw 0 0;
 }
