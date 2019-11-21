@@ -17,7 +17,7 @@ body {
 .menu {
     float: right;
     padding: 18px 0 0 0;
-    
+
 }
 
 .menu img {
@@ -62,7 +62,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
-    
+
 }
 
 ul.topnav li {
@@ -347,15 +347,17 @@ ul.topnav li.icon {
         margin: auto;
         width: 90px;
     }
+
     .content h2 {
         font-size: 15px;
         text-align-last: center;
     }
+
     .content a {
         font-size: 16px;
         width: 200px;
     }
-        }
+
     .form-content {
         width: 300px;
     }
@@ -363,9 +365,8 @@ ul.topnav li.icon {
     .form-main input {
         margin: auto;
         width: 90%;
-        padding:9px; 
+        padding: 9px;
     }
-}
 }
 
 
