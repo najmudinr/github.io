@@ -3,13 +3,12 @@
 
 <head>
     <title>CACT.US</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="DetailProduk.css">
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-</head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,900&display=swap">
+    <link rel="stylesheet" href="DetailProduk.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../script.js"></script>
+</head>>
 
 <body>
     <!--Navbar-->
@@ -29,9 +28,9 @@
 
             <!-- form popup login -->
 
-            <a href="javascript:void(0);" id="form-link"><img src="Icon/user.svg" alt=""></a>
+            <a id="form-link"><img src="Icon/user.svg" alt=""></a>
 
-            <div id="form-box" class="form-login">
+            <div style="display: none" ; class="form-login">
                 <div class="form-content">
                     <div class="form-head">
                         <span class="close">×</span>
@@ -47,17 +46,17 @@
                         </form>
                         <div class="ext">
                             Belum memiliki akun? Daftar
-                            <button id="form-linkSignUp" onclick="">disini</button></div>
+                            <button id="form-linkSignUp">disini</button></div>
                     </div>
                 </div>
             </div>
 
             <!-- form sign up -->
 
-            <div id="form-boxSignUp" class="form-signUp">
+            <div style="display: none" ; class="form-signUp">
                 <div class="form-content">
                     <div class="form-head">
-                        <span class="closeSignUp">×</span>
+                        <span class="close">×</span>
                         <h2>Silahkan Daftar</h2>
                     </div>
                     <div class="form-main">
@@ -73,6 +72,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- ++++ -->
 
             <a href="KeranjangBelanja.html"><img src="Icon/shopping-cart.svg" alt=""></a>
         </div>
@@ -100,7 +101,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quas consectetur ipsa, asperiores amet. Debitis dolores architecto soluta, temporibus maiores minima. Deleniti, assumenda cumque aspernatur impedit, suscipit facere consequatur nihil.</p>
         </div>
     </div>
-    
+
     <!--Footer-->
 
     <footer>
@@ -112,7 +113,6 @@
 
     </footer>
 
-    <!--JavaScript-->
+</body>
 
-    <script src="../script.js"></script>
-</body></html>
+</html>

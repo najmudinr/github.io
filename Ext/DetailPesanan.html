@@ -3,84 +3,86 @@
 
 <head>
     <title>CACT.US</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="DetailPesanan.css">
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap">
+    <link rel="stylesheet" href="DetailPesanan.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../script.js"></script>
 </head>
 
 <body>
 
-   <!--Navbar-->
+    <!--Navbar-->
 
-   <ul class="topnav">
-       <li><img src="Icon/cact.us.png" alt=""></li>
-       <li><a href="../index.html">Beranda</a></li>
-       <li><a href="BelanjaSekarang.html">Katalog</a></li>
-       <li><a href="CaraPerawatan.html">Cara Perawatan</a></li>
-       <li><a href="Tentang.html">Tentang</a></li>
+    <ul class="topnav">
+        <li><img src="Icon/cact.us.png" alt=""></li>
+        <li><a href="../index.html">Beranda</a></li>
+        <li><a href="BelanjaSekarang.html">Katalog</a></li>
+        <li><a href="CaraPerawatan.html">Cara Perawatan</a></li>
+        <li><a href="Tentang.html">Tentang</a></li>
 
 
-       <li class="icon">
-           <a href="javascript:void(0);" onclick="myFunction()">☰</a>
-       </li>
-       <div class="menu">
+        <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+        </li>
+        <div class="menu">
 
-           <!-- form popup login -->
+            <!-- form popup login -->
 
-           <a href="javascript:void(0);" id="form-link"><img src="Icon/user.svg" alt=""></a>
+            <a id="form-link"><img src="Icon/user.svg" alt=""></a>
 
-           <div id="form-box" class="form-login">
-               <div class="form-content">
-                   <div class="form-head">
-                       <span class="close">×</span>
-                       <h2>Silahkan Masuk</h2>
-                   </div>
-                   <div class="form-main">
-                       <form name="login" onsubmit="return validasi()">
-                           <p>Username / Email</p>
-                           <input type="text" name="username" required>
-                           <p>Password</p>
-                           <input type="password" name="password" required>
-                           <input type="submit" name="submit" value="Masuk">
-                       </form>
-                       <div class="ext">
-                           Belum memiliki akun? Daftar
-                           <button id="form-linkSignUp" onclick="">disini</button></div>
-                   </div>
-               </div>
-           </div>
+            <div style="display: none" ; class="form-login">
+                <div class="form-content">
+                    <div class="form-head">
+                        <span class="close">×</span>
+                        <h2>Silahkan Masuk</h2>
+                    </div>
+                    <div class="form-main">
+                        <form name="login" onsubmit="return validasi()">
+                            <p>Username / Email</p>
+                            <input type="text" name="username" required>
+                            <p>Password</p>
+                            <input type="password" name="password" required>
+                            <input type="submit" name="submit" value="Masuk">
+                        </form>
+                        <div class="ext">
+                            Belum memiliki akun? Daftar
+                            <button id="form-linkSignUp">disini</button></div>
+                    </div>
+                </div>
+            </div>
 
-           <!-- form sign up -->
+            <!-- form sign up -->
 
-           <div id="form-boxSignUp" class="form-signUp">
-               <div class="form-content">
-                   <div class="form-head">
-                       <span class="closeSignUp">×</span>
-                       <h2>Silahkan Daftar</h2>
-                   </div>
-                   <div class="form-main">
-                       <form name="signUp">
-                           <p>Username</p>
-                           <input type="text" name="" required>
-                           <p>Email</p>
-                           <input type="email" name="" required>
-                           <p>Password</p>
-                           <input type="password" name="" required>
-                           <input type="submit" name="" value="Daftar">
-                       </form>
-                   </div>
-               </div>
-           </div>
+            <div style="display: none" ; class="form-signUp">
+                <div class="form-content">
+                    <div class="form-head">
+                        <span class="close">×</span>
+                        <h2>Silahkan Daftar</h2>
+                    </div>
+                    <div class="form-main">
+                        <form name="signUp">
+                            <p>Username</p>
+                            <input type="text" name="" required>
+                            <p>Email</p>
+                            <input type="email" name="" required>
+                            <p>Password</p>
+                            <input type="password" name="" required>
+                            <input type="submit" name="" value="Daftar">
+                        </form>
+                    </div>
+                </div>
+            </div>
 
-           <a href="KeranjangBelanja.html"><img src="Icon/shopping-cart.svg" alt=""></a>
-       </div>
-       <div class="search">
-           <input type="text" placeholder="Pencarian...">
-       </div>
-   </ul>
-    
+            <!-- ++++ -->
+
+            <a href="KeranjangBelanja.html"><img src="Icon/shopping-cart.svg" alt=""></a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Pencarian...">
+        </div>
+    </ul>
+
     <!--Konten-->
     <!--Form Biodata-->
 
@@ -162,8 +164,6 @@
 
     </footer>
 
-    <!--JavaScript-->
-
-    <script src="../script.js"></script>
 </body>
+
 </html>

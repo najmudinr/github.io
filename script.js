@@ -3,42 +3,31 @@
 function myFunction() {
     document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
 }
-//PopUp Form 
 
-var popup = document.getElementById("form-box");
-var linked = document.getElementById("form-link");
-var linkedSignUp = document.getElementById("form-linkSignUp");
-var popupSignUp = document.getElementById("form-boxSignUp");
-var close = document.getElementsByClassName("close")[0];
-var closeSignUp = document.getElementsByClassName("closeSignUp")[0];
+//Jquery untuk form login dan sign up
 
+$(document).ready(function () {
+    $("#form-link").click(function () {
+        $(".form-login").css("display", "block");
+    });
+    $("#form-linkSignUp").click(function () {
+        $(".form-login").css("display", "none");
+        $(".form-signUp").css("display", "block");
+    });
+    $(".close").click(function () {
+        $(".form-login").css("display", "none");
+        $(".form-signUp").css("display", "none");
+    });
+});
 
-linked.onclick = function() {
-    popup.style.display = "block";
-
-}
-linkedSignUp.onclick = function() {
-    popup.style.display = "none";
-    popupSignUp.style.display = "block";
-}
-
-close.onclick = function() {
-    popup.style.display = "none";
-
-}
-closeSignUp.onclick = function() {
-    popupSignUp.style.display = "none";
-
-}
-window.onclick = function(event) {
-    if (event.target == popup || event.target == popupSignUp) {
-        popup.style.display = "none";
-        popupSignUp.style.display = "none";
-
+$(document).mouseup(function (e) {
+    if ($(".form-login").is(e.target) || $(".form-signUp").is(e.target)) {
+        $(".form-login").css("display", "none");
+        $(".form-signUp").css("display", "none");
     }
-}
+});
 
-//Validasi
+//Validasi login
 
 function validasi() {
     var username = document.forms["login"]["username"].value;

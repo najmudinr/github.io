@@ -127,7 +127,6 @@ ul.topnav li.icon {
 /* Form PopUp Login*/
 
 .form-login {
-    display: none;
     position: fixed;
     z-index: 1;
     padding-top: 110px;
@@ -219,7 +218,6 @@ ul.topnav li.icon {
 /* Form PopUp SignUp */
 
 .form-signUp {
-    display: none;
     position: fixed;
     z-index: 1;
     padding-top: 110px;
