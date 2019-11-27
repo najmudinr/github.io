@@ -11,13 +11,13 @@ body {
 
 .topnav li img {
     width: 90px;
-    padding: 13px 13px 0 20px;
+    padding: 16px 13px 0 20px;
 }
 
 .menu {
     float: right;
     padding: 18px 0 0 0;
-    
+
 }
 
 .menu img {
@@ -62,7 +62,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: whitesmoke;
-    
+
 }
 
 ul.topnav li {
@@ -126,6 +126,7 @@ ul.topnav li.icon {
         display: block;
         text-align: left;
     }
+
     .form-content {
         width: 300px;
     }
@@ -133,7 +134,7 @@ ul.topnav li.icon {
     .form-main input {
         margin: auto;
         width: 90%;
-        padding:9px; 
+        padding: 9px;
     }
 }
 
@@ -313,6 +314,7 @@ ul.topnav li.icon {
     cursor: pointer;
     color: darkolivegreen;
 }
+
 /*Konten*/
 
 .isi {
@@ -377,28 +379,29 @@ footer p {
 footer p {
     font-size: 13px;
     font-style: italic;
-    padding: 0 5vw 0;
+    padding: 0 15px 0;
 }
 
 .social img {
     width: 20px;
-    padding: 0 5vw 0 0;
-    
+    padding: 0 3vw 0 0;
 }
-@media screen and (max-width:601px){
-        }
-    .form-content {
-        width: 300px;
-    }
 
-    .form-main input {
-        margin: auto;
-        width: 90%;
-        padding:9px; 
-    }
+@media screen and (max-width:601px) {}
+
+.form-content {
+    width: 300px;
 }
-@media screen and (max-width:1110px){
-    footer{
-        bottom:unset;
+
+.form-main input {
+    margin: auto;
+    width: 90%;
+    padding: 9px;
+}
+}
+
+@media screen and (max-width:1110px) {
+    footer {
+        bottom: unset;
     }
 }
