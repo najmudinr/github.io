@@ -20,7 +20,7 @@ $(document).ready(function () {
     });
     $(".close").click(function () {
         $(".form-login").css("display", "none");
-        $(".form-signUp").css("display", "block");
+        $(".form-signUp").css("display", "none");
     });
 });
 
